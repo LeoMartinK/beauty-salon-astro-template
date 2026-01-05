@@ -49,5 +49,11 @@
     "schema-dts": "^1.1.5",
     "tailwindcss": "^3.4.1",
     "typescript-eslint": "^8.50.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }
